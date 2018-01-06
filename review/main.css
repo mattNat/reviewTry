@@ -1,0 +1,104 @@
+* {
+  padding: 5px 5px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  background-color: red;
+  border: solid black 2px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 50px 30px; */
+}
+
+body {
+  background-color: grey;
+  border: solid black 1px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.love {
+  background-color: lightgrey;
+  border: solid darkgrey 1px;
+  /* margin-left: 50px; */
+  /* margin-right: 50px; */
+  /* padding: 15px 30px; */
+}
+
+.love h2 {
+  text-align: center;
+}
+
+footer {
+  font-size: 75%;
+}
+
+.inline {
+  background-color: blue;
+  display: inline;
+}
+
+.block {
+  background-color: blueviolet;
+  display: block;
+}
+
+.inlineblock {
+  background-color: yellow;
+  display: inline-block;
+  height: 100px;
+  width: 300px;
+}
+
+.static {
+  position: static;
+  width: 100px;
+  height: 100px;
+  background: red;
+  left: 10px;
+  top: 100px;
+}
+
+.absolute {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  left: 300px;
+  top: 680px;
+}
+
+.relative {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  top: 5px;
+}
+
+.fixed {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background: red;
+  right: 10px;
+  top: 100px;
+}
+
+.bird {
+  float: right;
+  /* clear: left; */
+  /* overflow: auto; */
+}
+
+p.clear {
+  clear: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
